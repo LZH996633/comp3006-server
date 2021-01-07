@@ -4,7 +4,6 @@ node_js:
 after_success:
   - echo 'I successfully done'
 install:
-- npm install
 - npm install -g mocha
 - npm install chai
 - npm install chai-http
