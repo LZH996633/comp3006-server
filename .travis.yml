@@ -7,3 +7,6 @@ install:
 - npm install -g mocha
 - npm install chai
 - npm install chai-http
+- npm install @babel/core
+- npm install @babel/register
+- npm install @babel/polyfill
