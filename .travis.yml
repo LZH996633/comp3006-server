@@ -13,7 +13,6 @@ install:
 - npm install @babel/core
 - npm install @babel/register
 - npm install @babel/polyfill
-- npm install babel-plugin-transform-class-properties
 before_install:
 - openssl aes-256-cbc -K $encrypted_9b2d7e19d83c_key -iv $encrypted_9b2d7e19d83c_iv
   -in id_rsa.enc -out ~/.ssh/id_rsa -d
